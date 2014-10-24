@@ -1,12 +1,13 @@
 Package.describe({
   name: 'striletskyy:builder',
-  summary: ' /* Fill me in! */ ',
-  version: '1.0.0',
+  summary: 'Build mobile layout template',
+  version: '0.0.1',
   git: 'https://github.com/striletskyy/Builder.git'
 });
 
 Package.onUse(function(api) {
   api.versionsFrom('0.9.4');
+  api.export('Builder', 'client');
   api.addFiles('striletskyy:builder.js');
 });
 
