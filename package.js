@@ -2,11 +2,11 @@ Package.describe({
   name: 'striletskyy:builder',
   summary: ' /* Fill me in! */ ',
   version: '1.0.0',
-  git: ' /* Fill me in! */ '
+  git: 'https://github.com/striletskyy/Builder.git'
 });
 
 Package.onUse(function(api) {
-  api.versionsFrom('undefined');
+  api.versionsFrom('0.9.4');
   api.addFiles('striletskyy:builder.js');
 });
 
