@@ -14,8 +14,9 @@ Package.onUse(function(api) {
   api.use('jonperl:famous-compiled');
   api.use('mjnetworks:mj-famous');
 
-  api.export('Builder', 'client');
+  api.export('Builder');
   api.addFiles('striletskyy:builder.js');
+  api.addFiles('lib/grid.js');
 });
 
 Package.onTest(function(api) {
