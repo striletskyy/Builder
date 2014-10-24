@@ -7,6 +7,13 @@ Package.describe({
 
 Package.onUse(function(api) {
   api.versionsFrom('0.9.4');
+
+  api.use('gadicohen:famous-views');
+  api.use('raix:famono');
+  api.use('mjn:famous');
+  api.use('jonperl:famous-compiled');
+  api.use('mjnetworks:mj-famous');
+
   api.export('Builder', 'client');
   api.addFiles('striletskyy:builder.js');
 });
